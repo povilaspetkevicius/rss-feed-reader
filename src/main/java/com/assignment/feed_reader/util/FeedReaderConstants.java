@@ -18,4 +18,7 @@ public class FeedReaderConstants {
     public static final String TAG_NAME_DESCRIPTION = "description";
     public static final String TAG_NAME_LINK = "link";
     public static final String RFC822_DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss zzz";
+    public static final String ERROR_MSG_FEED_UPDATE_FAILED = "Feed could not be updated";
+    public static final String ERROR_MSG_FEED_NOT_FOUND = "Feed not found";
+    public static final String ERROR_MSG_URL_NOT_VALID = "Given URL is not valid";
 }

@@ -25,11 +25,11 @@ public class Item {
     @Column(name = FeedReaderConstants.COLUMN_PUBLISHED)
     private Date published;
 
-    @ManyToOne(fetch=FetchType.LAZY)
-    @JoinColumn(name="feed_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "feed_id")
     private Feed feed;
 
-    public void setFeed(Feed feed){
+    public void setFeed(Feed feed) {
         this.feed = feed;
     }
 
@@ -69,15 +69,6 @@ public class Item {
     public String toString() {
         return this.title + " " + this.link + " " + this.description + " " + this.published;
     }
-
-//    @Override
-//    public int hashCode() {
-//        int hash = 7;
-//        hash = 31 * hash * (title == null ? 0 : title.hashCode());
-//        hash = 31 * hash * (description == null ? 0 : description.hashCode());
-//        hash = 31 * hash * (link == null ? 0 : link.hashCode());
-//        return hash;
-//    }
 
     @Override
     public boolean equals(Object obj) {
