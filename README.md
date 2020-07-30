@@ -14,5 +14,6 @@ Make sure you get application.properties and pom.xml files updated before doing 
 
 Spoiler alert! Due to frontend files being quite heavy, nice UI won't be loaded :( However, one can also run application locally.
 
-Link to frontend part of code here:
-https://github.com/povilaspetkevicius/rss-reader
+####Links to code repositories:
+1. Backend: https://github.com/povilaspetkevicius/rss-feed-reader
+2. Frontend: https://github.com/povilaspetkevicius/rss-reader
